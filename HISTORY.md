@@ -13,6 +13,7 @@ Our backwards-compatibility policy can be found [here](https://github.com/python
 
 ## NEXT
 
+- Support Python 3.15+ ([PEP 661](https://peps.python.org/pep-0661/)) sentinels, un/structured by name, including sentinel annotations and unions.
 - Support the [`frozendict`](https://docs.python.org/3.15/builtins/stdtypes.html#frozendict) built-in on Python 3.15+.
   ([#787](https://github.com/python-attrs/cattrs/pull/787))
 - Python 3.15 is now supported and part of the test matrix.
